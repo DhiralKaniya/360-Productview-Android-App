@@ -1,15 +1,16 @@
 package com.ramzproductview;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
+/**
+ * Created by The_King on 6/2/2017.
+ */
 
-public class MainActivity extends ActionBarActivity {
-
-    @Override
+public class temp {
+    /*@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -17,7 +18,7 @@ public class MainActivity extends ActionBarActivity {
 
         String imagesTag360="";
 
-        /*Taking images from the assert folder*/
+        //Taking images from the assert folder
 
         for(int i=1;i<19;i++)
         {
@@ -26,7 +27,7 @@ public class MainActivity extends ActionBarActivity {
 
 
 
-        /* For Showing Images from image url just use the image url in the src field*/
+        // For Showing Images from image url just use the image url in the src field
 
 //        for(int i=0;i<imageLength;i++)
 //        {
@@ -64,5 +65,5 @@ public class MainActivity extends ActionBarActivity {
 
 
         return super.onOptionsItemSelected(item);
-    }
+    }*/
 }

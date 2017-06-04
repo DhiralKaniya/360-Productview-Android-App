@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/camera" android:title="camera" android:icon="@drawable/ic_click_image" />
+    <item android:id="@+id/Gallery" android:title="Gallery" android:icon="@drawable/ic_gallery" />
+    <item android:id="@+id/view_360" android:title="Rotate" android:icon="@drawable/ic_rotate" />
+</menu>

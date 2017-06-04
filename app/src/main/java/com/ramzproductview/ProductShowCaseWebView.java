@@ -55,11 +55,6 @@ public class ProductShowCaseWebView extends WebView {
 
     @Override
     public void loadDataWithBaseURL(String baseUrl, String data, String mimeType, String encoding, String historyUrl) {
-
-
-
-
-
         super.loadDataWithBaseURL(baseUrl, "<style>"
 
             /*Setting the style attribute to fit the image in the screen*/

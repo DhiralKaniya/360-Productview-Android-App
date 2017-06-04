@@ -1,4 +1,4 @@
-package com.ramzproductview;
+package com.ramzproductview.Modal;
 
 import java.util.ArrayList;
 
@@ -8,13 +8,16 @@ import java.util.ArrayList;
 
 public class ImageCollector {
     private ArrayList<Image> myImages;
-
+    public ImageCollector(ArrayList<Image> myimage){
+        this.myImages = myimage;
+    }
     public ImageCollector() {
         this.myImages = new ArrayList<Image>();
     }
     public void addImages(Image image){
         this.myImages.add(image);
     }
+    public ArrayList<Image> getAllimage(){ return this.myImages; }
     public void removeImage(Image image){
         for(Image img : myImages){
             if(img.getImageurl().equals(image.getImageurl())){
@@ -23,7 +26,11 @@ public class ImageCollector {
             }
         }
     }
+    public void addMultiple(ArrayList<Image> image){
+        this.myImages = image;
+    }
     public int getTotalImages(){
         return this.myImages.size();
     }
+    public Image getFirstImage(){return this.myImages.get(0); }
 }
